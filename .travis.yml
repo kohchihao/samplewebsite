@@ -13,4 +13,4 @@ node_js:
 git:
   depth: 3
 script:
-  - yarn build $GITHUB_TOKEN
+  - npm run deploy $GITHUB_TOKEN
