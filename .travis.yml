@@ -12,6 +12,5 @@ deploy:
   provider: script
   script: ./travis/deploy_gh_pages.sh
   skip-cleanup: true
-  target-branch: gh-pages
   on:
     branch: master
