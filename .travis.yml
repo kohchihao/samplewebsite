@@ -8,9 +8,10 @@ git:
   depth: 3
 script:
   - yarn build
+
 deploy:
+  skip-cleanup: true
   provider: script
   script: ./travis/deploy_gh_pages.sh
-  skip-cleanup: true
   on:
     branch: master
