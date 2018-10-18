@@ -12,6 +12,6 @@ script:
 deploy:
   skip-cleanup: true
   provider: script
-  script: ./travis/deploy_gh_pages.sh
+  script: bash travis/deploy_gh_pages.sh
   on:
     branch: master
